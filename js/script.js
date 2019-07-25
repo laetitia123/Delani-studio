@@ -38,10 +38,12 @@ $(document).ready(function() {
           });
          
       });
-  });
+
 
 $("#submit").click(function(){
-  $(".message").show();
   $(".form-row").hide();
+  $(".message").show();
+ 
 });
 
+});

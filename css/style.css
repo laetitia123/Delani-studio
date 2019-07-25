@@ -95,13 +95,14 @@ img{
 }
 .btn-outline-warning{
     position: absolute;
+    border:2px;
   left:70px;
-    bottom: 80px;
+    bottom: 10px;
     width: 150px;
-  
-    button{
-        
-    }
+    height:200px;
+    width: 200px;
+}
+    
 .contactus{
     height:680px;
     background-image:url("../backgrounds/c_image.jpg");
@@ -138,4 +139,8 @@ background-color:transparent;
 }
 .message{
     display: none;
+    color:white;
+    margin-top:300px;
+    font-size: 24px;
+    text-align:center;
 }
