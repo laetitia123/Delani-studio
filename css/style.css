@@ -53,8 +53,9 @@
     text-transform: uppercase;
    font-family: 'Didact Gothic', sans-serif;
     text-align: center;
-    padding-top:350px;
-    font-size: 20px;
+    padding-top:340px;
+   
+    word-spacing:0.1em;
 }
 /* .image p{
     font-size:16px; 
