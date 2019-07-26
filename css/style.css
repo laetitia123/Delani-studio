@@ -6,6 +6,10 @@
     margin-top:30px;
     font-family: 'Times New Roman', Times, serif;
 }
+#dodo{
+    text-align: center;
+
+}
 .image{
     height:1000px;
     background-image: url("../backgrounds/h_img.jpg");

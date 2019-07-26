@@ -40,14 +40,12 @@ $(document).ready(function() {
       });
 
 
-// $("#submit").click(function(){
-//   $(".form-row").hide();
-//   $(".message").show();
+$("#submit").click(function(){
+var name=$("#name").val();
+var email=$("#email").val();
+var textarea=$("styled").val();
+alert("hey " +name +"Thank you for contact us");
  
-// });
+});
 
 });
-// javascript
-function myOnloadFunc() {
-  $('#success_msg').modal('show');
-}
