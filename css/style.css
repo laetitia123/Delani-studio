@@ -65,16 +65,21 @@
     text-transform: uppercase;
     font: weight 900;
 }
-/* about us style */
+/* about us style started */
 .us{
     margin-top:50px;
     height: 300px;
     font-family: 'DM Sans', sans-serif;
 }
 /* about us style ended */
+
+
+/* services start styled */
 .laptop{
-    height: 300px;
+    height: 400px;
     background-image: url("../backgrounds/s_image.jpg");
+    padding-top:100px;
+
 }
 .portfolio{
     height:650px;
