@@ -47,7 +47,7 @@
     font: weight 900;
 }
 .image{
-    height:1000px;
+    height:1050px;
     background-image: url("../backgrounds/h_img.jpg");
     color:white;
     text-transform: uppercase;
@@ -57,9 +57,6 @@
    
     word-spacing:0.1em;
 }
-/* .image p{
-    font-size:16px; 
-} */
 #log2{
     padding-top:300px;
 }
