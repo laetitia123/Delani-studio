@@ -67,10 +67,11 @@
 }
 /* about us style */
 .us{
-    margin-top:60px;
+    margin-top:50px;
     height: 300px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'DM Sans', sans-serif;
 }
+/* about us style ended */
 .laptop{
     height: 300px;
     background-image: url("../backgrounds/s_image.jpg");
