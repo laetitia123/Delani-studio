@@ -51,11 +51,14 @@
     background-image: url("../backgrounds/h_img.jpg");
     color:white;
     text-transform: uppercase;
-    font-family:Didact Gothic;
+   font-family: 'Didact Gothic', sans-serif;
     text-align: center;
     padding-top:350px;
     font-size: 20px;
 }
+/* .image p{
+    font-size:16px; 
+} */
 #log2{
     padding-top:300px;
 }
