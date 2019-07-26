@@ -1,3 +1,22 @@
+/* first div styled */
+.image{
+    height:1050px;
+    background-image: url("../backgrounds/h_img.jpg");
+    color:white;
+    text-transform: uppercase;
+   font-family: 'Didact Gothic', sans-serif;
+    text-align: center;
+    padding-top:340px;
+   
+    word-spacing:0.1em;
+}
+#log2{
+    padding-top:300px;
+}
+/* first div styled */
+
+
+
 .row {
     padding-top:50px;
 }
@@ -46,24 +65,11 @@
     text-transform: uppercase;
     font: weight 900;
 }
-/* first div styled */
-.image{
-    height:1050px;
-    background-image: url("../backgrounds/h_img.jpg");
-    color:white;
-    text-transform: uppercase;
-   font-family: 'Didact Gothic', sans-serif;
-    text-align: center;
-    padding-top:340px;
-   
-    word-spacing:0.1em;
-}
-#log2{
-    padding-top:300px;
-}
-/* first div styled */
+/* about us style */
 .us{
+    margin-top:20px;
     height: 300px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .laptop{
     height: 300px;
