@@ -91,8 +91,20 @@ margin-top:40px;
 font-family: 'Didact Gothic', sans-serif;
 }
 /* services style end */
+
+
+/* .portfolio style :start */
+
+#portfolios{
+    text-align:center;
+    text-transform:uppercase;
+    font-size:25px;
+    margin-top:40px;
+    font-family: 'Didact Gothic', sans-serif;   
+}
 .portfolio{
     height:650px;
+    margin-top:50px;
 }
 .portfolio img{
     width:300px;
