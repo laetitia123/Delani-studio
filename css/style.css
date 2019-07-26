@@ -46,6 +46,7 @@
     text-transform: uppercase;
     font: weight 900;
 }
+/* first div styled */
 .image{
     height:1050px;
     background-image: url("../backgrounds/h_img.jpg");
@@ -60,6 +61,7 @@
 #log2{
     padding-top:300px;
 }
+/* first div styled */
 .us{
     height: 300px;
 }
