@@ -137,11 +137,25 @@
                       <textarea name="styled-textarea"  class="form-control"  id="styled" rows="3"></textarea>
                   </div>
                   <div class="col-md-3">
-                      <input type="submit" value="Submit" id="submit">
+                      <input type="submit" value="Submit" id="submit" onload="myOnloadFunc();">
                   </div>
                 </div>
              
-              <p class="message">Hey!Thank you for contact us we will get back to you soon </p>
+                <div class="modal fade" id="success_msg" role="dialog" tabindex="-1">
+                  <div class="success">
+                    <div class="modal-dialog-success">
+                      <div class="col-xs-12 pade_none">
+                        <button type="button" class="close" onClick="closeConfirm();" data-dismiss="modal">&times;</button>
+                        <div class="col-xs-12 pade_none">
+                          <h2>Success!</h2>
+                          <p>Your message has been sent.</p>
+                        </div>
+                        <div class="col-xs-12 pad_none">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  </div>
             </div>
           </div>
             <div class="container">

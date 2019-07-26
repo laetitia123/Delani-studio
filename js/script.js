@@ -40,10 +40,14 @@ $(document).ready(function() {
       });
 
 
-$("#submit").click(function(){
-  $(".form-row").hide();
-  $(".message").show();
+// $("#submit").click(function(){
+//   $(".form-row").hide();
+//   $(".message").show();
  
-});
+// });
 
 });
+// javascript
+function myOnloadFunc() {
+  $('#success_msg').modal('show');
+}
