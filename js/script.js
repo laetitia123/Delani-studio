@@ -28,16 +28,18 @@ $(document).ready(function() {
         $("#img3").show();
         $(".p3").hide();
       });
+    });
     
+    $(document).ready(function() {
+    $(".port1").hover(function(){
+    $(".port1").mouseenter(function(){
+    $("#button").show();
+      });
 
-
-      $(".port1").hover(function(){
-        $(".port1").mouseenter(function(){
-        $("#button").show();
-        });
-        $(".port1").mouseleave(function(){
-          $("#button").hide();
+    $(".port1").mouseleave(function(){
+    $("#button").hide();
           });
+      
          
       });
       $(".port1").hover(function(){
@@ -115,20 +117,21 @@ $(document).ready(function() {
           });
          
       });
-
+    });
       
           
          
      
+    $(document).ready(function() {
 
-
-
+  
 $("#submit").click(function(){
 var name=$("#name").val();
 var email=$("#email").val();
 var textarea=$("styled").val();
-alert("Hey " +name +"Thank you for contact us");
+alert("Dear" +name +";"+" we have received your message.Thank you for reaching out to us.");
  
 });
+      }
 
 });

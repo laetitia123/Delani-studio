@@ -1,7 +1,6 @@
 # Delani-studio
 #### By **Laetitia Uwizeyimana**
-#### when the use input the date of birth and gender the application display the name he/she must be called, 
-
+##
 ## Description
   This project is about creating  Landing page for a fictional studio as shown below.
 
