@@ -261,3 +261,7 @@ background-color:transparent;
     font-size: 24px;
     text-align:center;
 }
+#emptyAlertText{
+    display:none;
+
+}

@@ -12,7 +12,7 @@ when clicked should toggle between the respective description of each icon. The 
   
 >Create a Hover effect for the **Portfolio ** sections such that on hover a white box appears with then name of the project inside. The project picture should still be visible in the background. 
 
->Tell the user through a pop up that you have received their message and also thank them for contacting you 
+>Tell the user through a pop up that you have received their message and also thank them for contacting you .
 
 ## Setup/Installation Requirements
     * computer with Internet
@@ -35,4 +35,8 @@ when clicked should toggle between the respective description of each icon. The 
 ## link to my Github account
 https://laetitia123.github.io/Delani-studio/
 ## Support and contact details
-Any contribution or support you can concact 
+Any contribution or support please contact me on my email:uwizelaetitia@gmail.com
+### License
+
+Copyright (c) 2019**Laetitia**
+  

@@ -123,9 +123,15 @@ $(document).ready(function() {
 $("#submit").click(function(){
 var name=$("#name").val();
 var email=$("#email").val();
-var textarea=$("styled").val();
+var textarea=$("#styled").val();
+
+if (($("#email").val() == "") || ($("#name").val() == "")) {
+  alert("please fill all");
+  // $( "#emptyAlertText" ).fadeIn( "slow" );
+}
+else{
 alert("Hey " +name +"we have received your message. Thank you for reaching out to us. ");
- 
+}
 });
 
 });
