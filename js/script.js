@@ -51,60 +51,53 @@ $(document).ready(function() {
   });
  $(".port3").hover(function(){
   $(".port3").mouseenter(function(){
-        $("#button3").show();
-        });
-        $(".port3").mouseleave(function(){
-          $("#button3").hide();
-          });
-         
-      });
-
-      $(".port4").hover(function(){
-        $(".port4").mouseenter(function(){
-        $("#button4").show();
-        });
-        $(".port4").mouseleave(function(){
-          $("#button4").hide();
-          });
-         
-      });
-      $(".port5").hover(function(){
-        $(".port5").mouseenter(function(){
-        $("#button5").show();
-        });
-        $(".port5").mouseleave(function(){
-          $("#button5").hide();
-          });
-         
-      });
-      $(".port6").hover(function(){
-        $(".port6").mouseenter(function(){
-        $("#button6").show();
-        });
-        $(".port6").mouseleave(function(){
-          $("#button6").hide();
-          });
-         
-      });
-      $(".port7").hover(function(){
-        $(".port7").mouseenter(function(){
-        $("#button7").show();
-        });
-        $(".port7").mouseleave(function(){
-          $("#button7").hide();
-          });
-         
-      });
-      $(".port8").hover(function(){
-        $(".port8").mouseenter(function(){
-        $("#button8").show();
-        });
-        $(".port8").mouseleave(function(){
-          $("#button8").hide();
-          });
-         
-      });
-
+  $("#button3").show();
+  });
+  $(".port3").mouseleave(function(){
+  $("#button3").hide();
+  });
+  });
+ $(".port4").hover(function(){
+   $(".port4").mouseenter(function(){
+   $("#button4").show();
+    });
+   $(".port4").mouseleave(function(){
+   $("#button4").hide();
+   });
+   });
+ $(".port5").hover(function(){
+   $(".port5").mouseenter(function(){
+   $("#button5").show();
+   });
+   $(".port5").mouseleave(function(){
+   $("#button5").hide();
+   });
+   });
+ $(".port6").hover(function(){
+   $(".port6").mouseenter(function(){
+   $("#button6").show();
+   });
+   $(".port6").mouseleave(function(){
+   $("#button6").hide();
+   });
+   });
+  $(".port7").hover(function(){
+    $(".port7").mouseenter(function(){
+    $("#button7").show();
+    });
+    $(".port7").mouseleave(function(){
+    $("#button7").hide();
+    });
+    });
+ $(".port8").hover(function(){
+  $(".port8").mouseenter(function(){
+  $("#button8").show();
+  });
+  $(".port8").mouseleave(function(){
+  $("#button8").hide();
+  });
+  });
+$(document).ready(function(){
 $("#submit").click(function(){
 var name=$("#name").val();
 var email=$("#email").val();
@@ -119,4 +112,5 @@ alert("Hey " +name +"we have received your message. Thank you for reaching out t
 }
 });
 
+});
 });
