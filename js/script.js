@@ -1,19 +1,18 @@
+// This is Business Logic
 $(document).ready(function() {
-    $("#img1").click(function() {
-      $(".p1").show();
-      $("#img1").hide();
-    });
-    $(".p1").click(function() {
-      $("#img1").show();
-      $(".p1").hide();
-    });
-    
-    
-    $("#img2").click(function() {
-        $(".p2").show();
-        $("#img2").hide();
-      });
-      $(".p2").click(function() {
+ $("#img1").click(function() {
+   $(".p1").show();
+   $("#img1").hide();
+   });
+ $(".p1").click(function() {
+  $("#img1").show();
+  $(".p1").hide();
+  }); 
+ $("#img2").click(function() {
+  $(".p2").show();
+  $("#img2").hide();
+  });
+ $(".p2").click(function() {
         $("#img2").show();
         $(".p2").hide();
       });

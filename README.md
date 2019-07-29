@@ -22,7 +22,8 @@ when clicked should toggle between the respective description of each icon. The 
 
 
 ## Known Bugs
-
+ 
+ The hover background color still not working very well.
 
 ## Technologies Used
 
