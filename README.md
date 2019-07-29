@@ -7,9 +7,11 @@
 
    <img src="Delani.jpg" width="750" title="hover text">
 ## BDD
+
   *In 'What we do'  icons when clicked should toggle between the respective description of each icon. The description should be centered aligned. The header should be in bold and centered also. 
   *Create a Hover effect for the **Portfolio ** sections such that on hover a white box appears with then name of the project inside. The project picture should still be visible in the background. 
   *Create a Hover effect for the **Portfolio ** sections such that on hover a white box appears with then name of the project inside. The project picture should still be visible in the background. This should be achieved using jQuery.
+
 ## Setup/Installation Requirements
 * computer with Internet
 * Google clome to get the Webpage
