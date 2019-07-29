@@ -13,52 +13,44 @@ $(document).ready(function() {
   $("#img2").hide();
   });
  $(".p2").click(function() {
-        $("#img2").show();
-        $(".p2").hide();
-      });
+  $("#img2").show();
+  $(".p2").hide();
+  });
       
-      $("#img3").click(function() {
-        $(".p3").show();
-        $("#img3").hide();
-      });
-      $(".p3").click(function() {
-        $("#img3").show();
-        $(".p3").hide();
-      });
-    
-
-
-      $(".port1").hover(function(){
-        $(".port1").mouseenter(function(){
-        $("#button").show();
-        });
-        $(".port1").mouseleave(function(){
-          $("#button").hide();
-          });
-         
-      });
-      $(".port1").hover(function(){
-        $(".port1").mouseenter(function(){
-        $("#button").show();
-        });
-        $(".port1").mouseleave(function(){
-          $("#button").hide();
-          });
-         
-      });
-
-      $(".port2").hover(function(){
-        $(".port2").mouseenter(function(){
-        $("#button2").show();
-        });
-        $(".port2").mouseleave(function(){
-          $("#button2").hide();
-          });
-         
-      });
-
-      $(".port3").hover(function(){
-        $(".port3").mouseenter(function(){
+ $("#img3").click(function() {
+  $(".p3").show();
+  $("#img3").hide();
+  });
+  $(".p3").click(function() {
+  $("#img3").show();
+  $(".p3").hide();
+  });
+ $(".port1").hover(function(){
+  $(".port1").mouseenter(function(){
+  $("#button").show();
+  });
+ $(".port1").mouseleave(function(){
+  $("#button").hide();
+  });
+  });
+  $(".port1").hover(function(){
+  $(".port1").mouseenter(function(){
+  $("#button").show();
+  });
+  $(".port1").mouseleave(function(){
+  $("#button").hide();
+  });
+  });
+ $(".port2").hover(function(){
+  $(".port2").mouseenter(function(){
+  $("#button2").show();
+  });
+  $(".port2").mouseleave(function(){
+  $("#button2").hide();
+  });
+  });
+ $(".port3").hover(function(){
+  $(".port3").mouseenter(function(){
         $("#button3").show();
         });
         $(".port3").mouseleave(function(){
@@ -113,13 +105,6 @@ $(document).ready(function() {
          
       });
 
-      
-          
-         
-     
-
-
-
 $("#submit").click(function(){
 var name=$("#name").val();
 var email=$("#email").val();
@@ -127,7 +112,7 @@ var textarea=$("#styled").val();
 
 if (($("#email").val() == "") || ($("#name").val() == "") ||($("#styled").val() == "")) {
   // alert("please fill all");
-  $( "#emptyAlertText" ).fadeIn( "slow" );
+  $( "#emptyAlertText" ).fadeIn();
 }
 else{
 alert("Hey " +name +"we have received your message. Thank you for reaching out to us. ");
