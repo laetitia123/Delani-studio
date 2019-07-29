@@ -4,7 +4,8 @@
 
 ## Description
   This project is about creating  Landing page for a fictional studio as shown below.
-   <img src=" Delani Studio.jpg" width="350" title="hover text">
+  ![Test Image 2]("Delani Studio.jpg")
+   <img src="Delani Studio.jpg" width="350" title="hover text">
 ## BDD
    *In 'What we do'  icons when clicked should toggle between the respective description of each icon. The description should be centered aligned. The header should be in bold and centered also. 
 
