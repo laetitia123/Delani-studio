@@ -230,9 +230,11 @@ textarea#styled{
     color:white;
     border-color: aliceblue;
 }
-::placeholder {
-    color:white;
-}
+
+.form-control::placeholder {
+    color:white!important;
+    opacity: 1;
+  }
 .form-row{
     padding-top:50px;
     color:white;
