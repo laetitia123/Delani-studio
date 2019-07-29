@@ -3,8 +3,7 @@
 ##
 ## Description
   This project is about creating  Landing page for a fictional studio as shown below.
-
-   <img src="Delani.jpg" width="750" title="hover text">
+  <img src="Delani.jpg" width="750" title="hover text">
 
 ## BDD
 
