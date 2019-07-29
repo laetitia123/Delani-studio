@@ -124,7 +124,7 @@ if (($("#email").val() == "") || ($("#name").val() == "") ||($("#styled").val() 
   $( "#emptyAlertText" ).fadeIn();
 }
 else{
-alert("Hey " +name +"we have received your message. Thank you for reaching out to us. ");
+alert("Hey " +name + "\n" + " we have received your message. Thank you for reaching out to us. ");
 }
 });
 
