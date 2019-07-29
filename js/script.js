@@ -126,9 +126,6 @@ var name=$("#name").val();
 var email=$("#email").val();
 var textarea=$("styled").val();
 alert("Hey " +name +"we have received your message. Thank you for reaching out to us. ");
-//  if(name==""|| emai=="" || textarea==""){
-//    alert("please complete the form")
-//  }
  
 });
 
