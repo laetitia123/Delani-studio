@@ -6,8 +6,8 @@
   This project is about creating  Landing page for a fictional studio as shown below.
 
    <img src="Delani.jpg" width="750" title="hover text">
-   
-## BDD
+
+> BDD
 
   *In 'What we do'  icons when clicked should toggle between the respective description of each icon. The description should be centered aligned. The header should be in bold and centered also. 
   *Create a Hover effect for the **Portfolio ** sections such that on hover a white box appears with then name of the project inside. The project picture should still be visible in the background. 
