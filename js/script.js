@@ -28,9 +28,11 @@ $(document).ready(function() {
  $(".port1").hover(function(){
   $(".port1").mouseenter(function(){
   $("#button").show();
+  $("#p").show();
   });
  $(".port1").mouseleave(function(){
   $("#button").hide();
+  $("#p").hide();
   });
   });
   $(".port1").hover(function(){
@@ -44,57 +46,71 @@ $(document).ready(function() {
  $(".port2").hover(function(){
   $(".port2").mouseenter(function(){
   $("#button2").show();
+  $("#p2").show();
   });
   $(".port2").mouseleave(function(){
   $("#button2").hide();
+  $("#p2").hide();
   });
   });
  $(".port3").hover(function(){
   $(".port3").mouseenter(function(){
   $("#button3").show();
+  $("#p3").show();
   });
   $(".port3").mouseleave(function(){
   $("#button3").hide();
+  $("#p3").hide();
   });
   });
  $(".port4").hover(function(){
    $(".port4").mouseenter(function(){
    $("#button4").show();
+   $("#p4").show();
     });
    $(".port4").mouseleave(function(){
    $("#button4").hide();
+   $("#p4").hide();
    });
    });
  $(".port5").hover(function(){
    $(".port5").mouseenter(function(){
    $("#button5").show();
+   $("#p5").show();
    });
    $(".port5").mouseleave(function(){
    $("#button5").hide();
+   $("#p5").hide();
    });
    });
  $(".port6").hover(function(){
    $(".port6").mouseenter(function(){
    $("#button6").show();
+   $("#p6").show();
    });
    $(".port6").mouseleave(function(){
    $("#button6").hide();
+   $("#p6").hide();
    });
    });
   $(".port7").hover(function(){
     $(".port7").mouseenter(function(){
     $("#button7").show();
+    $("#p7").show();
     });
     $(".port7").mouseleave(function(){
     $("#button7").hide();
+    $("#p7").hide();
     });
     });
  $(".port8").hover(function(){
   $(".port8").mouseenter(function(){
   $("#button8").show();
+  $("#p8").show();
   });
   $(".port8").mouseleave(function(){
   $("#button8").hide();
+  $("#p8").hide();
   });
   });
 $(document).ready(function(){
