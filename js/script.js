@@ -120,7 +120,7 @@ var email=$("#email").val();
 var textarea=$("#styled").val();
 
 if (($("#email").val() == "") || ($("#name").val() == "") ||($("#styled").val() == "")) {
-  // alert("please fill all");
+
   $( "#emptyAlertText" ).fadeIn();
 }
 else{
