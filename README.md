@@ -15,10 +15,10 @@ when clicked should toggle between the respective description of each icon. The 
 >Tell the user through a pop up that you have received their message and also thank them for contacting you .
 
 ## Setup/Installation Requirements
-    * computer with Internet
-    * Google clome to get the Webpage
-    * visual stidio or any other code editor
-    * linux instalation (option)
+     computer with Internet
+     Google clome to get the Webpage
+     visual stidio or any other code editor
+     linux instalation (option)
 
 
 ## Known Bugs
