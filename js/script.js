@@ -1,3 +1,5 @@
+// This is Business Logic
+
 $(document).ready(function() {
     $("#img1").click(function() {
       $(".p1").show();
